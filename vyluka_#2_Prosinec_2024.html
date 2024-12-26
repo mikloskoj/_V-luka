@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500, initial-scale=1.0">
+    <title>Výluka Newsletter - Říjen 2024</title>
+    <script>parent.document.getElementsByTagName('iframe')[0].scrolling="yes";</script>
+    
+    <style>
+        body {
+            font-family: Helvetica;
+            background-color: #ffffff; height: 100px;
+            margin: 0;
+            padding: 0;
+            overflow: scroll;
+        }
+
+        .fade-in {
+            opacity: 0;
+            background-color: white;
+            animation: fadeInAnimation 5s ease-in-out forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+                background-color: white;
+            }
+            100% {
+                opacity: 1;
+                background-color: transparent;
+            }
+        }
+
+
+        .header_container {
+            width: 100%;
+            max-width:450px;
+            margin: 0 auto;
+            background-color: #d7d7d700;
+            padding: 2px;
+            border: 0px dashed #ccc;
+            border-radius: 15px;
+        }
+
+        .page_container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 0px solid #ccc;
+            border-radius: 15px;
+        }
+
+        .vyluka_logo {
+            text-align: center; 
+            color: #2a2f55; 
+            font-weight: bolder; 
+            font-size: 70px;
+            margin-bottom: 20px;
+            padding-top: 40px;
+            border: 0px dashed #999;
+        }
+
+
+        /* Flexbox container for text and image */
+        .text-image-section {
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .text-content {
+            flex-basis: 60%;
+            padding-right: 20px;
+        }
+
+        .text-content p {
+            
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .text-content p2 {
+            
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 1.6;
+            color: #363636;
+            margin-bottom: 20px;
+        }
+
+
+        .text-content p3 {
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 1.2;
+            color: #555;
+            margin: 20px;
+        }
+
+
+        .image-content {
+            flex-basis: 35%;
+
+        }
+
+        .image-content img {
+            width: 100%;
+            height: auto;
+            border: Opx solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        /* Header (Logo, název, detaily) styling */
+        .header {
+            text-align: center;
+            margin-bottom: 5px;
+            padding-top: 15px;
+            border: 0px dashed #999;
+        }
+
+        .header img {
+            width: 150px;
+            margin-bottom: 0px;
+        }
+
+
+                /* Header (Logo, název, detaily) styling */
+        .header_2 {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-top: 40px;
+            border: 0px dashed #999;
+        }
+
+        .header_2 img {
+            max-width: 400px;
+            margin-bottom: 10px;
+        }
+
+        /* Název vydání - styling */
+
+        
+        h1 {
+            font-size: 24px;
+            color: #ededed;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 3px solid #ebebeb;
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-weight: lighter;
+            color: #656565;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 7px solid #cdae31;
+            display:flex;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 50px;
+            color: #e5e5e5;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 7px solid #545977;
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        
+
+        h8 {
+            font-size: 30px;
+            color: #dedede;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 7px solid #cdae31; /**/
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        h9 {
+            font-size: 30px;
+            color: #cecece;
+            text-align: center;
+            padding: 10px;
+            border-bottom: 7px solid #cdae31;
+            display:flex;
+            margin-top: 0;
+        }
+
+
+
+        .subheader {
+            text-align: center;
+            font-size: 14px;
+            color: #dedede;
+            margin-bottom: 40px;
+        }
+
+        
+        .release_number h3 {
+            text-align: center;
+            font-size: 70px;
+            color: #dedede;
+            margin-bottom: 40px; 
+            border: none;  
+            display: inline-block;
+        }
+
+        .content p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #eeecec;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .content p2 {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #161616;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* Song Section */
+        .song-section p {
+            display: flex; 
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+
+        .song-section p2{
+            font-size: 22px;
+            color: #262626;
+            font-weight: bold;
+        }
+
+        .song-section p3{
+            font-size: 11px;
+            color: #656565;
+        }
+
+        .song-section p4{
+            font-size: 13px;
+            color: #2c2c2c;
+        }
+
+        .song-section_2 {
+            display:inline-flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .song-icon {
+            width: 30px;
+            height: 30px;
+            background-color: #545977;
+            margin-right: 20px; 
+            border-radius: 100%;
+        }
+
+        .song-details {
+            flex-grow: 1;
+        }
+
+        .song-title {
+            font-size: 15px; text-align: center;
+            font-weight: bolder;
+            color: #eaeaea;
+            margin: 0;
+        }
+
+        .song-title_small {
+            font-size:small;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .song-year {
+            font-size: 10px;
+            color: #777;
+        }
+
+        /* ---------- TÉMA ---------------- */
+
+
+        .song-section-theme {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+
+        .song-icon-theme {
+            width: 30px;
+            height: 30px;
+            background-color: #ffffff;
+            margin-right: 20px;
+        }
+
+        .song-details-theme {
+            flex-grow: 1;
+            font-size: 13px;
+            color: #262626;
+            text-align: center;
+        }
+
+        .song-title-theme {
+            font-size: 40px;
+            font-weight: bolder;
+            color: #858585;          
+            margin: 2;
+        }
+
+        .song-title-theme_2 {
+            font-size: 25;
+            font-weight: bold;
+            color: #2c2c2c; 
+            margin: 10;
+        }
+
+        .song-year-theme {
+            font-size: 14px;
+            color: #ff0000;
+        }
+
+
+
+        /* Divider */
+        .divider-dashed {
+            border-top: 2px dashed #cdae31;
+            margin: 40px 0;
+        }
+
+        
+
+        /* Divider */
+        .divider-space {
+            border-top: 0px dashed #999;
+            margin: 80px 0;
+        }
+
+        /* Divider */
+        .divider-smallspace {
+            border: none;
+            margin: 12px 0;
+        }        
+
+        /* YouTube Embed */
+        .youtube-video {
+            width: 100%;
+            height: 200px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        iframe_2 {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        /* Flexbox for multiple videos */
+        .video-section {
+            display: flex;
+            justify-content: space-between;
+            align-items:end;
+            margin-bottom: 5px;
+            
+        }
+
+        .video-item {
+            flex-basis: 30%;
+        }
+
+        .small-video {
+            width: 100%;
+            height: 80px;
+        }
+
+        /* Footer styling */
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .unsubscribe {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        /* Hlavní věta čísla - styling */
+        .separate-section_1 {
+            padding: 10px;
+            text-align: center; 
+            font-weight: bold; 
+            color: grey;
+            font-size: 16px;
+            background-color: #f7f7f7;
+            margin: 40px 0;
+            border: 0px dashed #999;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            transition: background-color 0.5s ease;
+        }
+
+        .separate-section_1:hover {
+            background-color: #ffffff; /* Barevná ikona na hover */
+        }
+
+        /* Hlavní TÉMA čísla - styling */
+        .separate-section_2 {
+            padding: 20px;
+            text-align: center; 
+            color: #e7e7e7;
+            background-color: #f8f8f8d6;
+            margin: 10px 0;
+            border-left: 1px line #2a2f55;
+            box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            transition: border-left 0.5s ease;
+        }
+
+        .separate-section_2:hover {
+            border-left: 20px solid #393d54;; /* Barevná ikona na hover */
+        }
+
+                /* Hlavní TÉMA čísla - styling */
+        .separate-section_3 {
+            padding: 20px;
+            text-align: center; 
+            color: #e7e7e7;
+            background-color: #ceb967;
+            margin: 10px 0;
+            border: 20px line #a8a8a8;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+        }
+
+
+        /* Spodní část s textem na obrázku */
+        .image-container {
+        position: relative;
+        display: inline-block; 
+        width: 100%;
+        max-width: 1000px; /* Adjust according to your desired size */
+        
+        }
+
+        /* Ensure image takes full width of the container */
+        .image-container img {
+        width: 100%;
+        border-radius: 15px;
+        height: auto;
+        display: block;
+ 
+        }
+
+        /* Darker overlay on the image */
+        .image-container::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+        border-radius: 15px;
+        z-index: 1;
+        border-top: 0px solid #a8a8a8;
+        transition: border-top, background-color 0.8s ease;
+        }
+
+        /* Hover effect */
+        .image-container:hover::after {
+        border-top: 15px solid #cdae31;
+        background-color: rgba(0, 0, 0, 0.8); /* Barevná ikona na hover */
+        }
+
+
+        .image-container_2 {
+        position: relative;
+        display: inline-block; 
+        width: 100%;
+        max-width: 1000px; /* Adjust according to your desired size */
+        }
+
+        /* Ensure image takes full width of the container */
+        .image-container_2 img {
+        width: 100%;
+        border-radius: 15px;
+        height: auto;
+        display: block;
+        }
+
+        /* Darker overlay on the image */
+        .image-container_2::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1); /* Black with 50% opacity */
+        border-radius: 15px;
+        z-index: 1;
+        border-top: 0px solid #a8a8a8;
+        transition: border-top, background-color 0.8s ease;
+        }
+
+        /* Hover effect */
+        .image-container_2:hover::after {
+        border: 4px solid #cdae31; /* Barevná ikona na hover */
+        background-color: rgba(0, 0, 0, 0.8); /* Change opacity to 10% */
+        }
+
+
+
+        .image-container_3 {
+        position: relative;
+        display: inline-block; 
+        width: 100%;
+        max-width: 1000px; /* Adjust according to your desired size */
+        }
+
+        /* Ensure image takes full width of the container */
+        .image-container_3 img {
+        width: 100%;
+        border-radius: 15px;
+        height: auto;
+        display: block;
+        }
+
+
+        /* Text overlay, positioned absolutely over the image */
+        .overlay-text {
+            opacity: 0; /* Skryjeme text */
+            animation: fadeInAnimation 15s forwards;
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0); /* Optional background for readability */
+            padding: 20px;
+            width: 90%; /* Adjust the width for text size */
+            z-index: 2; /* Ensure the text is above the overlay */
+        }
+
+        /* Text overlay, positioned absolutely over the image */
+        .overlay-text_2 {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 13px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0); /* Optional background for readability */
+            padding: 5px;
+            width: 90%; /* Adjust the width for text size */
+            z-index: 2; /* Ensure the text is above the overlay */
+        }
+
+
+                /* Text overlay, positioned absolutely over the image */
+            .overlay-text_3_main_title {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 13px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0); /* Optional background for readability */
+            padding: 5px;
+            width: 90%; /* Adjust the width for text size */
+            z-index: 2; /* Ensure the text is above the overlay */
+        }
+
+
+        /* Styling for the title */
+        .overlay-text h1 {
+            font-size: 25px;
+            color: #e7e7e7;
+            margin: 15;
+        }
+
+                /* Styling for the title */
+        .overlay-text h5 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e7e7e7;
+            margin: 2;
+        }
+
+                /* Styling for the title */
+        .overlay-text h4 {
+            font-size: 70px;
+            color: #e7e7e7;
+            margin-bottom: 2px;
+            margin-bottom: 20px;
+        }
+
+
+        /* Styling for the paragraph */
+        .overlay-text p {
+            font-size: 13px;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+
+                /* Styling for the title */
+        .overlay-text_3_main_title h1 {
+            font-size: 25px;
+            color: #e7e7e7;
+            margin: 15;
+        }
+
+                /* Styling for the title */
+        .overlay-text_3_main_title h5 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #e7e7e7;
+            margin: 2;
+        }
+
+                /* Styling for the title */
+        .overlay-text_3_main_title h4 {
+            font-size: 70px;
+            color: #e7e7e7;
+            margin-bottom: 2px;
+            margin-bottom: 20px;
+        }
+
+
+        /* Styling for the paragraph */
+        .overlay-text_3_main_title p {
+            font-size: 13px;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+
+
+
+        .icon-wrapper {
+            display: inline-flex; /* Keeps icons side by side */
+            align-items: center; /* Centers icons vertically */
+            padding: 6px; /* Adds padding inside the rectangle */
+            transition: border-bottom 0.5s ease;
+            border-bottom: 1px solid #ccc; /* Adds border */
+            border-radius: 15px; /* Rounded corners */
+            background-color: #f7f7f7; /* Background color inside the rectangle */
+        }
+        .icon-wrapper .icon-container {
+            display: flex;
+            gap: 5px; /* Space between icons */
+        }
+        .icon-wrapper img {
+            width: 20px; /* Adjust icon size */
+            height: 20px;             
+             /* Přechod pro plynulé změny */
+            border-bottom: 0px solid #ccc; /* Černobílá ikona */
+        }
+
+        
+        .icon-wrapper:hover {
+            border-bottom: 6px solid #941b1b; /* Barevná ikona na hover */
+        }
+
+         /* PLAYLISTS */
+        .icon-wrapper_2 {
+            display: inline-flex; /* Keeps icons side by side */
+            align-items: center; /* Centers icons vertically */
+            padding: 20px; /* Adds padding inside the rectangle */
+            background-color: #f7f7f7;  /* Background color inside the rectangle */
+            border-radius: 30px;
+        }
+        .icon-wrapper_2 .icon-container_2 {
+            display:inline-flex;
+            gap: 20px; /* Space between icons */
+        }
+        .icon-wrapper_2 img {
+            width: 100px; /* Adjust icon size */
+            height: 90px;
+
+        }
+
+
+
+        .darker-text {
+            color: #000; /* Nastavení tmavší barvy */
+            font-weight: 600; /* Silnější text */
+        }
+
+        .icon {
+            width: 100px;
+            transition: filter 0.3s ease; /* Přechod pro plynulé změny */
+            filter: grayscale(100%); /* Černobílá ikona */
+        }
+
+        .icon:hover {
+            filter: grayscale(0%); /* Barevná ikona na hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page_container">
+        <div class="header_container">
+            <!-- Header -->
+            <div class="header_2">
+                <div class="header">
+                    <img src="https://drive.google.com/thumbnail?id=1NbVXE6aB-jDpQK4GEd-DZ7oAq51aNwWN&sz=w700" alt="Kapela Song Background" class="fade-in">
+                </div>
+
+
+                <hr class="divider-space"> 
+
+                <!-- Text and Image Section -->
+                <div class="text-image-section">
+                    <div class="text-content">
+                    <p>Ahoj kamarádi!</p>
+                        
+                    <p2>Děkuji, že odebíráte můj newsletter a doufám, že vás inspiruje a potěší.</p2>
+                    <p></p>
+                    <p2>Připravil jsem pro vás výběr hudby za měsíc Říjen!</p2>
+                    <p2>Snažil jsem se vybírat hudbu napříč všemi žánry, která vystihuje současné počasí.</p2>
+                    <p></p>
+                    <p2>Přeji příjemný poslech.</p2>
+                    <br>
+                    <br>
+                    <p>Honza</p>
+                    </div>
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+
+                    <hr class="divider-smallspace">
+                    <div class="image-content">
+                        <img src="https://drive.google.com/thumbnail?id=1Pi3cnv1wyCkTJL6bn1EIIJWvExI0tK0g&sz=w1000" alt="Obrázek newsletteru" class="fade-in">
+                    </div>
+                </div>
+
+
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+
+        </div>   
+        
+        <div class="image-container_2">
+            <!-- Replace the src with your image file path -->
+            <img src="https://drive.google.com/thumbnail?id=1Jgl7KVBKNgzQwxg3Vb2cCVSDbxdTa-HI&sz=w1000" alt="Kapela Song Background" class="fade-in">
+            
+            <div class="overlay-text_3_main_title">
+
+                <h4>#2</h4>
+                <div class="release_number">      
+                    <h8>Priority jsou jasné</h8>
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+                    <div class="subheader">
+                        <span>mikloskoj.eu/vyluka</span> | <span>#2 | Prosinec 2024</span>
+                    
+                    </div>
+
+                </div>
+            </div>
+        
+            </div>          
+                  
+            </div>
+            <hr class="divider-smallspace">
+
+
+            
+            
+
+
+
+
+            <hr class="divider-space"> 
+
+
+
+            
+                <div class="separate-section_1">
+                <hr class="divider-smallspace"> 
+                <hr class="divider-smallspace"> 
+                <hr class="divider-smallspace"> 
+                <h2>Playlisty:</h2>
+                <div class="text-content">
+                    <p2> Všechny vybrané tracky ve Výluce přidávám do playlistů na Spotify a YT Music, ke kterým se dostanete kliknutím na příslušnou ikonu:</p2>
+                </div>
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <div class="icon-wrapper_2">
+                    <div class="icon-container_2">
+                        <!-- YouTube Music Icon -->
+                        <a href="https://music.youtube.com/playlist?list=PLTlpLlBfOPvut6cOiHaOw6tr9AXMqOh5K&si=8NverMQtCawk3fK5" target="_blank">
+                            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr1DYHSkOlFGDHyUnMAWlQz9NucZof4f9-ZAz4NoN9Jm37L8yFsO3gmVDhSsETXVM-KhtbJey-lEWVL2jFIk8Sw9fCTbHfVweHnP-mKAiMxwjiOLCIwTeX0U7LcW1qBCe_54GBKb8AksM/w400-h246/Logo+Youtube+Music.png" alt="YouTube Music">
+                        </a>
+                
+                        <!-- Spotify Icon -->
+                        <a href="https://open.spotify.com/playlist/0omQEyjVaj0Ht7dpiUutR6?si=BazfTFjoR-yTs-wlzdBMZw" target="_blank">
+                            <img class="icon" src="https://static.vecteezy.com/system/resources/previews/022/101/098/large_2x/spotify-logo-transparent-free-png.png" alt="Spotify">
+                        </a>
+                    
+                    </div>
+                
+                </div>
+            </div>
+
+
+
+
+
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-space">
+            <hr class="divider-smallspace">
+
+
+
+
+
+
+
+
+
+            <!-- //////////////////////////// Original Content -->
+            <div class="content">
+
+
+                <!--Segment 1 -->
+                <div class="song-section">
+                    <div class="song-details">
+                        <h2 class="song-section">Na úvod: </h2>
+                        
+                        <div class="image-container_3">
+                            <!-- Replace the src with your image file path -->
+                            <img src="https://theawesomer.com/photos/2024/12/billie_eilish_tiny_desk_concert_t.jpg" alt="Kapela Song Background" class="fade-in">
+                        </div>
+                        <br>
+                        <br>
+                        <p2 class="song-title">Billie Eilish: Tiny Desk Concert (2024)</p2>
+                        <br>
+                        <br>
+                        <p3 class="song-section">Billie Eilish</p3>
+                        <p3 class="song-section">(HIT ME HARD AND SOFT • 2024)</p3>
+                        <br>
+                        <p4 class="song-section">Billie Eilish s bráchou se objevili podruhé v kanclu veřejnoprávní NPR a stojí to za to! Video obsahuje: Nádherný zpěv, osobité písničky a skvělou kapelu. </p4>
+                        <br>
+                        <hr class="divider-smallspace">
+                        <br>
+                        <div class="separate-section_1">
+                            <div class="icon-wrapper">
+                                <div class="icon-container">
+                                    <!-- YouTube Music Icon -->
+                                    <a href="https://music.youtube.com/watch?v=fOAIrUZbOwo&si=Vx1dvVe_-MsI5jXH" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                    </a>
+                            
+                                    <!-- Spotify Icon -->
+                                    <a href="https://open.spotify.com/track/6TGd66r0nlPaYm3KIoI7ET?si=866195b95445414d" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                    </a>
+                                
+                                </div>
+                            
+                            </div>
+                        
+                            <hr class="divider-smallspace">
+                            <div class="youtube-video">
+                                <iframe src="https://youtube.com/embed/fOAIrUZbOwo?si=wJmGMZByvvcuskW8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+                
+                
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-space">
+            <hr class="divider-smallspace">
+
+  
+
+
+
+
+
+
+
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Segment 2 -->
+
+                <div class="image-container">
+
+                    
+
+                    
+                    <img src="https://drive.google.com/thumbnail?id=1MoCRJKihxZ90affgOEXZs7dA6cjX7nIt&sz=w1000" alt="Kapela Song Background" class="fade-in">
+                    <div class="overlay-text_2">
+                        <h1>Liska</h1>
+                        <br>
+                        <p class="song-section_2">Jana Kirschner</p>
+                        <br>
+                        <p>...</p>
+                        <div class="icon-wrapper">
+                            <div class="icon-container">
+                                <!-- YouTube Music Icon -->
+                                <a href="https://music.youtube.com/watch?v=ZQ5_PJZSrJE&si=d3GAgSrEQYuii1P3" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                </a>
+                        
+                                <!-- Spotify Icon -->
+                                <a href="https://open.spotify.com/track/382tJtuPRKELeLEH1HW503?si=85171e79c81c4e8f" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                </a>
+                            
+                            </div>
+                        
+                        </div>
+                        <hr class="divider-smallspace"> 
+                        <div class="song-section">
+                            <div class="song-details">
+
+                                <div class="youtube-video">
+                                    <iframe src="https://youtube.com/embed/ZQ5_PJZSrJE?si=Q7zf_OTf_zzk0z3A" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <hr class="divider-space">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--Segment 3 -->
+                <div class="song-section">
+                    <div class="song-details">
+                        <h2 class="song-section">Jazzové okénko: </h2>
+                        <br>
+                        <br>
+                        <p2 class="song-title">(Isn’t It) Obvious</p2>
+                        <br>
+                        <br>
+                        <p3 class="song-section">Alessia Cara (Obvious • 2024)</p3>
+                        <br>
+                        <p4 class="song-section">Začínáme zlehka. Pozor je to pop! :-D 
+                            Tohle jsem objevil na reels, když jsem hledal videa s Johnem Mayerem. Pomáhal ve studiu s kytarou. Proto mě song zaujal. A taky jsem nechtěl odradit nové odběratele.</p4>
+                        <br>
+                        <hr class="divider-smallspace">
+                        <br>
+                        <div class="separate-section_1">
+                            <div class="icon-wrapper">
+                                <div class="icon-container">
+                                    <!-- YouTube Music Icon -->
+                                    <a href="https://music.youtube.com/watch?v=P8HxTAVg_gs&si=S9LJI8N6IKnzGox4" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                    </a>
+                            
+                                    <!-- Spotify Icon -->
+                                    <a href="https://open.spotify.com/track/2WHpyoNdtUirfIv256JznP?si=cf7e5ba3e3ca45fa" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                    </a>
+                                
+                                </div>
+                            
+                            </div>
+                            <hr class="divider-smallspace">
+                            <div class="youtube-video">
+                                <iframe src="https://youtube.com/embed/hl2vqt1_AvU?si=OAAw8J0JNYKoc--Q" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+                
+                
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+
+
+
+
+
+ <!-- Multi - segment 1 -->
+
+
+                <div class="image-container">
+                   
+                    <img src="https://drive.google.com/thumbnail?id=1FFDexIynBbQvQYzXbBL1-4-yT8lUkRwy&sz=w1000" alt="Kapela Song Background">
+
+                    <div class="overlay-text">
+                        <div class="song-details">
+                            <h9 class="song-section">Miušky oblíbené:</h9>
+                        </div>
+                        <div class="video-section">
+                            <div class="video-item">
+                                <p class="song-title">Marble Halls (2009 Remaster)</p>
+                                <p class="song-section">Enya</p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=RHpLjdU_T7c&si=5DHxgYn0s8du1Lru" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                
+                                        <!-- Spotify Icon -->
+                                        <a href="https://open.spotify.com/track/3smqY3VDKQ4HLfvdFMCEuG?si=2f32c136e9494f16" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://youtube.com/embed/RHpLjdU_T7c?si=QKTRdQnFIGoEtLMm" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <p class="song-title">Believe</p>
+                                <p class="song-section">DMA'S (Triple J Like A Version • 2017)</p>
+                                <p class="song-section"></p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=Y1eAR92dTPE&si=8ZWwIm4NW7nVZUzr" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                        <!-- Spotify Icon -->
+                                        <a href="https://open.spotify.com/track/24oDOsC6NhYkgKQUcpLBIm?si=8e65639c31404c05" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                
+                                        
+
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://youtube.com/embed/MmwFnoMoDDg?si=sLz8e_ZzTPkoTl0T" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <p class="song-title">Still Beating</p>
+                                <p class="song-section">Mac DeMarco (Live at The Current)</p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=Fks574S-rdY&si=mABfAFjge1fyc83j" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                
+                                        <!-- Spotify Icon -->
+                                        <a href="https://open.spotify.com/track/4LpUpiYoZ2M3Z1kmhn4EQo?si=cf0e2cd6bfad4c23" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://youtube.com/embed/Fks574S-rdY?si=tfITLh1NpUEgJIPb" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                        
+                <hr class="divider-space"> 
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Segment 4 -->
+                <div class="song-section">
+                    <div class="song-details">
+                        <h2 class="song-section">Panebože.. : </h2>
+                        <br>
+                        <br>
+                        <p2 class="song-title">Arachnids</p2>
+                        <br>
+                        <br>
+                        <p3 class="song-section">Disclosure (Arachnids • 2024)</p3>
+                        <br>
+                        <p4 class="song-section">Proboha tohle vrchol. Neuvěřitelná evoluce zvuku na elektronické scéně. Naposto precizní zvuk a práce s filtry. Domyšlené do posledního detailu.</p4>
+                        <br>
+                        <hr class="divider-smallspace">
+                        <br>
+                        <div class="separate-section_1">
+                            <div class="icon-wrapper">
+                                <div class="icon-container">
+                                    <!-- YouTube Music Icon -->
+                                    <a href="https://music.youtube.com/watch?v=XBHZ7ADT9gQ&si=0wQWPA8exFOzyBjz" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                    </a>
+                            
+                                    <!-- Spotify Icon -->
+                                    <a href="https://open.spotify.com/track/4j3EJMATYxJ4ftJbVeAFWu?si=efaa80986b5c4498" target="_blank">
+                                        <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                    </a>
+                                
+                                </div>
+                            
+                            </div>
+                            <hr class="divider-smallspace">
+                            <hr class="divider-smallspace">
+                            <!-- YouTube Embed -->
+                            <div class="youtube-video">
+                                <iframe src="https://youtube.com/embed/Vb7c359lRqg?si=NAvlzHJLmq8UQmNp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+            </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                <!-- TÉMA -->
+                <div class="separate-section_2">
+                
+                <h2 class="song-section">Zaměřeno na: </h2>
+
+                <div class="image-content">
+                    <img src="https://themusicessentials.com/wp-content/uploads/2024/12/billboard-top-pop-stars-of-2024-list-kendrick-lamar.webp">
+                    <hr class="divider-smallspace">
+
+                </div>
+                <div class="song-section-theme">
+                    <div class="song-details-theme">
+                        <p class="song-title-theme">Kendrick Lamar</p>
+                        <p>...</p>
+                        <hr class="divider-space">
+                        <p class="song-title-theme_2">squabble up</p>
+                        <p class="song-year">(GNX • 2024)</p>
+                        <p>...</p>
+                        <div class="icon-wrapper">
+                            <div class="icon-container">
+                                <!-- YouTube Music Icon -->
+                                <a href="https://music.youtube.com/watch?v=U0KTVVMvcc4&si=VWgAVL1bkIJ34wCR" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                </a>
+                        
+                                <!-- Spotify Icon -->
+                                <a href="https://open.spotify.com/track/0nj9Bq5sHDiTxSHunhgkFb?si=849bc17815844533" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                </a>
+                            
+                            </div>
+                            
+                        
+                        </div>
+                        <hr class="divider-smallspace">
+                    </div>
+                </div>
+
+                <!-- YouTube Embed -->
+                <div class="youtube-video">
+                    <iframe src="https://youtube.com/embed/fuV4yQWdn_4?si=T_fnaGwQmABQY_SN" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="separate-section_3">
+        
+                    <div class="image-content">
+                        <img src="https://liveforlivemusic.com/wp-content/uploads/2024/11/kendrick-lamar-pglang-gnx-2024-press-photo.png">
+                        <hr class="divider-smallspace">
+        
+
+                    <!-- Segment se třemi videi vedle sebe -->
+                    <div class="video-section">
+                        <div class="video-item">
+                            <p class="song-title_small">gloria</p>
+                            <p class="song-year"> 
+                                Kendrick Lamar a SZA (GNX • 2024)</p>
+                            <div class="small-video">
+                                <iframe src="https://www.youtube.com/embed/G5YwhjCywvw?si=DrXTE8bYRyvQyT2n" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <p class="song-title_small">reincarnated</p>
+                            <p class="song-year"> 
+                                Kendrick Lamar (GNX • 2024)</p>
+                            <div class="small-video">
+                                <iframe src="https://www.youtube.com/embed/Ek7UvQPCQnE?si=82BZqNOfslDfK4W1" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="video-item">
+                            <p class="song-title_small">tv off (feat. Lefty Gunplay)</p>
+                            <p class="song-year"> 
+                                Kendrick Lamar (GNX • 2024)</p>
+                            <div class="small-video">
+                                <iframe src="https://www.youtube.com/embed/U8F5G5wR1mk?si=ij8-ZFk2UFhZZ96a" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            
+
+            </div>        
+            
+        <hr class="divider-space">
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Segment 5 -->
+                <div class="image-container">
+
+                    
+
+                    
+                    <img src="https://th.bing.com/th/id/R.c4ede574efc5a68680af3e1f288044f4?rik=8V7rw2Vi697izw&riu=http%3a%2f%2flouderthanwar.com%2fwp-content%2fuploads%2f2024%2f04%2fJon-Hopkins-Feature-Image.jpg&ehk=pAtk6T0x06GYDZvRD3IWrDkFi%2b0LukupmOPQdeUJAuM%3d&risl=&pid=ImgRaw&r=0" alt="Kapela Song Background">
+                    <div class="overlay-text_2">
+                        <h1>RITUAL (evocation)</h1>
+                        <br>
+                        <p class="song-section_2">Jon Hopkins, Vylana a 7RAYS (RITUAL (evocation) • 2024)</p>
+                        <br>
+                        <p>...</p>
+                        
+                        <div class="icon-wrapper">
+                            <div class="icon-container">
+                                <!-- YouTube Music Icon -->
+                                <a href="https://music.youtube.com/watch?v=lTqtlR_0Di4&si=9VxbX6SSwCucgTvZ" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                </a>
+                        
+                                <!-- Spotify Icon -->
+                                <a href="https://open.spotify.com/track/1mtkcUtTvtscfzIlOmcPBW?si=bea06712e68c4046" target="_blank">
+                                    <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                </a>
+                            
+                            </div>
+                        
+                        </div>
+                        <hr class="divider-smallspace"> 
+                        <div class="song-section">
+                            <div class="song-details">
+
+                                <div class="youtube-video">
+                                    <iframe src="https://www.youtube.com/embed/6nmwxYmg-Gs?si=IV6Iidj7JhngE2LE" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                
+                <hr class="divider-space">
+        
+                
+
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+                    <hr class="divider-smallspace">
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <!-- Multi - segment (Study, mood, late-night drive background music) -->
+
+
+                <div class="image-container">
+                   
+                    <img src="https://drive.google.com/thumbnail?id=1FH7o9RyZpzfIA3SjqubA3ozYph374fBG&sz=w1000" alt="Kapela Song Background">
+                    <div class="overlay-text">
+                        <div class="song-details">
+                            <h9 class="song-section">Background music: </h9>
+                        </div>
+
+
+                        <div class="video-section">
+                            <div class="video-item">
+                                <p2 class="song-title">wilted</p2>
+                                <p class="song-section">Medasin a Anatole Muster</p>
+                                <p class="song-year">(sounds • 2024)</p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=Zh_XHTmK8lY&si=RYme2oP-QJP7Arvr" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                
+                                        <!-- Spotify Icon -->
+                                        <a href="https://music.youtube.com/watch?v=Zh_XHTmK8lY&si=RYme2oP-QJP7Arvr" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://www.youtube.com/embed/Zh_XHTmK8lY?si=BCVdTrhmannlS3vG" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <p2 class="song-title">milk cassette x.mp3</p2>
+                                <p class="song-section">analog_mannequin</p>
+                                <p class="song-year">(milk cassette x.mp3 • 2021)</p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=d19-El5w8gg&si=JitTbl2UHkE7_sy5" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                
+                                        <!-- Spotify Icon -->
+                                        <a href="https://open.spotify.com/track/0NH4HBguRWaWJO83oqHyAp?si=3b284d5f588e4233" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://www.youtube.com/embed/mndPURYLHTU?si=1etEzvSSd0EVX1jM" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <p2 class="song-title">North Wind</p2>
+                                <p class="song-section">Helios</p>
+                                <p class="song-year">(Veriditas • 2018)</p>
+                                <div class="icon-wrapper">
+                                    <div class="icon-container">
+                                        <!-- YouTube Music Icon -->
+                                        <a href="https://music.youtube.com/watch?v=XrxStkvBQlw&si=3Pr4koWaNSeHGm2R" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1cUvRwduAjs5sd5eeDYsPT1jigb8cIa6U&sz=w200" alt="YouTube Music">
+                                        </a>
+                                
+                                        <!-- Spotify Icon -->
+                                        <a href="https://open.spotify.com/track/0PjAImKYB0ydXNo3eWCmPn?si=ef9f3c0bf6644b9f" target="_blank">
+                                            <img src="https://drive.google.com/thumbnail?id=1CW59HGXMuxZqw23aTnLCOUXpLdG5CskA&sz=w200" alt="Spotify">
+                                        </a>
+                                    
+                                    </div>
+                                
+                                </div>
+                                <hr class="divider-smallspace">
+                                <div class="small-video">
+                                    <iframe src="https://www.youtube.com/embed/tCb3eL6BOQw?si=34IrEBwYaPHbr7dU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+                        
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+
+
+
+            <div class="separate-section_1">
+                <hr class="divider-smallspace"> 
+                <hr class="divider-smallspace"> 
+                <hr class="divider-smallspace"> 
+                <h2>Na závěr:</h2>
+                <div class="text-content">
+                    <p3>Mockrát vám děkuji za zhlédnutí.</p3>
+                    <br>
+                    <hr class="divider-smallspace">
+                    <p2>Jak jsem již zmiňoval, tak Výluku budu vydávat nepravidelně zhruba jednou za měsíc. Být přihlášený k odběru znamená, že vám maximálně jednou měsíčně přijde notifikace do emailu, který jste poskytli :).</p2>
+                    <br>
+                    <hr class="divider-smallspace">
+                    <p2>Neváhejte mi napsat i vaše tipy. Mohl bych si je zamilovat a pak je přidat do Výluky (Zamozřejmě vás zmínim :) )</p2>
+                    <br>
+                    <hr class="divider-smallspace">
+                    <p2>Všechny vylistované tracky pravidelně přidávám do oficiálních plailistů na Spotify a Youtube.</p2>
+                </div>
+                <hr class="divider-smallspace">
+                <hr class="divider-smallspace">
+                <div class="icon-wrapper_2">
+                    <div class="icon-container_2">
+                        <!-- YouTube Music Icon -->
+                        <a href="https://music.youtube.com/playlist?list=PLTlpLlBfOPvut6cOiHaOw6tr9AXMqOh5K&si=8NverMQtCawk3fK5" target="_blank">
+                            <img class="icon" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr1DYHSkOlFGDHyUnMAWlQz9NucZof4f9-ZAz4NoN9Jm37L8yFsO3gmVDhSsETXVM-KhtbJey-lEWVL2jFIk8Sw9fCTbHfVweHnP-mKAiMxwjiOLCIwTeX0U7LcW1qBCe_54GBKb8AksM/w400-h246/Logo+Youtube+Music.png" alt="YouTube Music">
+                        </a>
+                
+                        <!-- Spotify Icon -->
+                        <a href="https://open.spotify.com/playlist/0omQEyjVaj0Ht7dpiUutR6?si=BazfTFjoR-yTs-wlzdBMZw" target="_blank">
+                            <img class="icon" src="https://static.vecteezy.com/system/resources/previews/022/101/098/large_2x/spotify-logo-transparent-free-png.png" alt="Spotify">
+                        </a>
+                    
+                    </div>
+                
+                </div>
+            </div>
+        
+
+    </div>
+        
+        <hr class="divider-smallspace">
+        <!-- Footer -->
+        <div class="footer">
+            <p>Výluka Newsletter | Posílám jednou měsíčně</p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdeiVD2KF62PG2vl7JPKWi1F4g5G2_crgITlAQlSJdCUCE09Q/viewform?usp=sf_link" class="unsubscribe">Přihlásit / Odhlásit odběr</a></p>
+            <p><a href="https://www.mikloskoj.eu/vyluka" class="unsubscribe">Stránka newsletteru</a></p>
+            <p><a href="https://www.mikloskoj.eu/vyluka/o-newsletteru-v%C3%BDluka" class="unsubscribe">Starší vydání</a></p>
+
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+            <p>Vytvořil Jan Mikloško roku 2024</p>
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">
+            <hr class="divider-smallspace">  
+        </div>
+
+</body>
+</html>
